@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #001f3f; /* Navy Blue */
+    --secondary-color: #f8f8f8; /* Light Grey for background */
+    --text-color: #333333; /* Dark Grey for text */
+    --button-color: #001f3f; /* Navy Blue for buttons */
+    --button-hover-color: #0056b3; /* Darker blue for button hover */
+    --font-family: 'Lato', sans-serif; /* Modern and clean font */
+}
+
+/* Importing the font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blob-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--secondary-color); /* Light Grey background */
+}
+
+    .blob-list-container h2 {
+        font-family: 'Lobster', cursive; /* Fancy and readable font for the title */
+        font-size: 2.5em;
+        color: var(--primary-color); /* Navy Blue color */
+        text-shadow: 2px 2px #cccccc; /* Soft shadow for a fancy effect */
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+.blob-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.blob-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--primary-color); /* Border matching the primary color */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--secondary-color); /* Light Grey background */
+    transition: transform 0.3s;
+}
+
+    .blob-item:hover {
+        transform: scale(1.05);
+    }
+
+    .blob-item span,
+    .blob-item a {
+        font-family: 'Lato', sans-serif; /* Readable font for text */
+        font-size: 1.2em;
+        font-weight: bold; /* Make the text bold */
+        color: var(--primary-color); /* Navy Blue color for text */
+        margin-bottom: 10px;
+        word-break: break-all;
+        text-align: center;
+        display: block; /* Display as block elements */
+    }
+
+.blob-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.blob-description {
+    font-family: 'Lato', sans-serif; /* Readable font for description */
+    font-size: 1em;
+    color: var(--text-color); /* Dark Grey color */
+    text-align: center;
+    margin: 10px 0;
+}
+
+.blob-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+    .blob-buttons button {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: var(--button-color); /* Navy Blue for buttons */
+        color: white;
+        font-size: 1em;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+        .blob-buttons button:hover {
+            background-color: var(--button-hover-color); /* Darker blue for button hover */
+            transform: scale(1.05);
+        }

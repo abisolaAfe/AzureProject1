@@ -1,0 +1,241 @@
+/* src/Styling/UploadFilePage.css */
+
+/*:root {
+    --primary-color: #6a0dad;*/ /* Purple color */
+    /*--secondary-color: #ffffff;*/ /* White color */
+    /*--button-hover-color: #4b0082;*/ /* Darker purple for button hover */
+    /*--success-color: #4CAF50;*/ /* Green for success message */
+    /*--font-family: 'Lato', sans-serif;*/ /* Modern and clean font */
+/*}*/
+
+/* Importing the font from Google Fonts */
+/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+    .upload-container h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: var(--primary-color);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    .upload-container input[type="file"] {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 2px solid var(--primary-color);
+        border-radius: 5px;
+        font-size: 1rem;
+        transition: border-color 0.3s;
+    }
+
+        .upload-container input[type="file"]:hover {
+            border-color: var(--button-hover-color);
+        }
+
+    .upload-container textarea {
+        width: 80%;
+        height: 200px;*/ /* Adjust the height as needed */
+        /*padding: 10px;
+        margin-bottom: 20px;
+        border: 2px solid var(--primary-color);
+        border-radius: 5px;
+        font-size: 1rem;
+        resize: none;
+        transition: border-color 0.3s;
+    }
+
+        .upload-container textarea:hover {
+            border-color: var(--button-hover-color);
+        }
+
+    .upload-container button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: var(--secondary-color);
+        background-color: var(--primary-color);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+        .upload-container button:hover {
+            background-color: var(--button-hover-color);
+            transform: scale(1.05);
+        }
+
+.success-message {
+    color: var(--success-color);
+    font-size: 1.5em;
+    margin-top: 20px;
+    animation: jump 1s ease infinite;
+}*/
+
+/* Define the jumping effect */
+/*@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px) scale(1.1);
+    }
+
+    80% {
+        transform: translateY(-5px) scale(1.05);
+    }
+}
+
+.upload-container .file-description-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+    .upload-container .file-description-wrapper input[type="file"] {
+        width: 80%;
+    }
+
+    .upload-container .file-description-wrapper textarea {
+        width: 80%;
+    }*/
+:root {
+    --primary-color: #001f3f; /* Navy Blue color */
+    --secondary-color: #f8f8f8; /* Light Grey color */
+    --button-hover-color: #0056b3; /* Darker blue for button hover */
+    --success-color: #4CAF50; /* Green for success message */
+    --font-family: 'Lato', sans-serif; /* Modern and clean font */
+}
+
+/* Importing the font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+    .upload-container h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: var(--primary-color);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    .upload-container input[type="file"] {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 2px solid var(--primary-color);
+        border-radius: 5px;
+        font-size: 1rem;
+        transition: border-color 0.3s;
+    }
+
+        .upload-container input[type="file"]:hover {
+            border-color: var(--button-hover-color);
+        }
+
+    .upload-container textarea {
+        width: 80%;
+        height: 200px; /* Adjust the height as needed */
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 2px solid var(--primary-color);
+        border-radius: 5px;
+        font-size: 1rem;
+        resize: none;
+        transition: border-color 0.3s;
+    }
+
+        .upload-container textarea:hover {
+            border-color: var(--button-hover-color);
+        }
+
+    .upload-container button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: var(--secondary-color);
+        background-color: var(--primary-color);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+        .upload-container button:hover {
+            background-color: var(--button-hover-color);
+            transform: scale(1.05);
+        }
+
+.success-message {
+    color: var(--success-color);
+    font-size: 1.5em;
+    margin-top: 20px;
+    animation: jump 1s ease infinite;
+}
+
+/* Define the jumping effect */
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px) scale(1.1);
+    }
+
+    80% {
+        transform: translateY(-5px) scale(1.05);
+    }
+}
+
+.upload-container .file-description-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+    .upload-container .file-description-wrapper input[type="file"] {
+        width: 80%;
+    }
+
+    .upload-container .file-description-wrapper textarea {
+        width: 80%;
+    }
+

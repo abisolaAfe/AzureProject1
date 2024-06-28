@@ -1,0 +1,72 @@
+/* AccesRequestPage.css */
+:root {
+    --primary-color: #001f3f; /* Navy blue color */
+    --secondary-color: #f8f8f8; /* Light grey color */
+    --button-hover-color: #0056b3; /* Darker navy blue for button hover */
+    --font-family: 'Lato', sans-serif; /* Modern and clean font */
+}
+
+/* Importing the font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.access-request-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--primary-color); /* Navy blue background */
+    color: var(--secondary-color); /* Light grey text color */
+}
+
+    .access-request-container h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: var(--secondary-color);
+        text-shadow: 2px 2px #cccccc; /* Soft shadow for a fancy effect */
+    }
+
+.request-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-color); /* Light grey background */
+    border: 2px solid var(--primary-color); /* Navy blue border */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+}
+
+    .request-item p {
+        margin: 0 0 10px;
+        font-size: 1.2em; /* Increased font size */
+        font-weight: bold; /* Bold text */
+        color: var(--primary-color); /* Navy blue text color */
+    }
+
+    .request-item button {
+        padding: 10px 20px;
+        font-size: 1rem; /* Increased font size */
+        color: var(--secondary-color); /* Light grey text color */
+        background-color: var(--primary-color); /* Navy blue background */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s; /* Add transition effects */
+    }
+
+        .request-item button:hover {
+            background-color: var(--button-hover-color); /* Darker navy blue on hover */
+            transform: scale(1.05); /* Slightly enlarge on hover */
+        }

@@ -1,0 +1,140 @@
+/* FileShareViewer.css */
+/* FileShareViewer.css */
+/*.file-share-viewer-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.file-share-viewer {
+    width: 40%;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.file-content-viewer {
+    width: 60%;
+    padding: 20px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.file-share-viewer h2 {
+    text-align: center;
+    color: #333;
+}
+
+.file-share-viewer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.file-share-viewer li {
+    margin: 10px 0;
+}
+
+.file-share-viewer a {
+    text-decoration: none;
+    color: #1a73e8;
+    cursor: pointer;
+}
+
+    .file-share-viewer a:hover {
+        text-decoration: underline;
+    }
+
+.file-share-viewer details {
+    margin-bottom: 10px;
+}
+
+.file-content-viewer pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.file-content-viewer p {
+    color: #999;
+    text-align: center;
+    font-style: italic;
+}
+*/
+
+/* FileShareViewer.css */
+.file-share-viewer-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.file-share-viewer {
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.file-content-viewer {
+    padding: 20px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.file-share-viewer h2 {
+    text-align: center;
+    color: #333; /* Darker gray for better readability */
+}
+
+.file-share-viewer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.file-share-viewer li {
+    margin: 10px 0;
+}
+
+.file-share-viewer a {
+    text-decoration: none;
+    color: #1a73e8; /* Blue color for links */
+    cursor: pointer;
+}
+
+    .file-share-viewer a:hover {
+        text-decoration: underline;
+    }
+
+.file-share-viewer details {
+    margin-bottom: 10px;
+}
+
+.file-content-viewer pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333; /* Dark gray text color for better readability */
+}
+
+.file-content-viewer p {
+    color: #999; /* Light gray for non-critical text */
+    text-align: center;
+    font-style: italic;
+}
+
+
