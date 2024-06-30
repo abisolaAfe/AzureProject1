@@ -2,21 +2,6 @@
 
 import getAppToken from './getAppToken';
 
-/*const getAppToken = async () => {
-    try {
-        const response = await axios.get('http://localhost:7071/api/GetGraphToken');
-        if (response.status === 200) {
-            const data = response.data;
-            return data.accessToken; // Assuming the backend returns the token as { accessToken: 'token' }
-        } else {
-            throw new Error('Failed to retrieve token from backend');
-        }
-    } catch (error) {
-        console.error("Error fetching app token from backend", error);
-        throw new Error("Failed to acquire application access token from backend");
-    }
-};*/
-
 const assignUserRole = async (userId, roleDefinitionId) => {
     try {
         // Get the application access token from the backend

@@ -13,7 +13,11 @@ const initialTasks = [
     { id: 3, name: 'Upgrade Access to edit Posts', completed: false },
     { id: 4, name: 'Edit Existing Post', completed: false },
     { id: 5, name: 'Upgrade Access to use virtual machine', completed: false },
-    { id: 6, name: 'Power On Virtual Machine', completed: false }
+    { id: 6, name: 'Power On Virtual Machine', completed: false },
+    { id: 7, name: 'Login to Virtual Machine', completed: false },
+    { id: 8, name: 'Create a file with text in the VM', completed: false },
+    { id: 9, name: 'Browse the App & explore the fileshare for your file', completed: false },
+    { id: 10, name: 'Browse any website from the Virtual machine', completed: false }
 ];
 
 export const TaskProvider = ({ children }) => {

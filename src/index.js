@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { EventType } from '@azure/msal-browser'; 
 import { BrowserRouter } from 'react-router-dom'; 
 import { pca } from './configFiles/msalConfig';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import { MsalProvider } from '@azure/msal-react';
