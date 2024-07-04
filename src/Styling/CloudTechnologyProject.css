@@ -1,0 +1,77 @@
+.project-container {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow-y: auto;
+}
+
+.project-title {
+    font-size: 2.5em;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    font-size: 1.2em;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.knowledge-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+    .knowledge-list li {
+        font-size: 1em;
+        color: #333333;
+        margin: 5px 0;
+        padding: 5px 0;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+.project-summary {
+    font-size: 1.1em;
+    color: #666666;
+    margin: 20px 0;
+}
+
+.description-title {
+    font-size: 1.8em;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .project-title {
+        font-size: 2em;
+    }
+
+    .project-description, .project-summary {
+        font-size: 1em;
+    }
+
+    .description-title {
+        font-size: 1.5em;
+    }
+
+    .knowledge-list li {
+        font-size: 0.9em;
+    }
+}

@@ -40,7 +40,7 @@ const getAppToken = async () => {
     const jwtToken = createJWTToken(jwtSecret); // Create the JWT token
 
     try {
-        const response = await axios.get('http://localhost:7071/api/GetGraphToken', {
+        const response = await axios.get('https://beezolalinkapp.azurewebsites.net/api/GetGraphToken', {
             headers: {
                 'Authorization': `Bearer ${jwtToken}` // Include JWT in the request headers
             }

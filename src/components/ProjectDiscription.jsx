@@ -1,0 +1,66 @@
+/*import React from 'react';
+
+const CloudTechnologyProject = () => {
+    const iframeSrc = "https://app.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Cloud%20project.drawio#R%3Cmxfile%3E%3Cdiagram%20name%3D%22Page-1%22%20id%3D%22vIARJwwss7JjJdvrbh9g%22%3E7T1rc6I827%2Bm88y8MzJJOH%2B02nbdp7a72%2B7u3X5xEKnSovgA1tpf%2FyachCQoKlDr3e5sKwED5DrkOl9nYmf6duUZ80nfHVnOGQKjtzOxe4YQUhUd%2FyEjq2hEByAaGHv2KBqC64E7%2B92KB5PLFvbI8nMXBq7rBPY8P2i6s5llBrkxw%2FPcZf6yJ9fJ33VujC1m4M40HHb0rz0KJtGohtT1%2BDfLHk%2BSO8PkhadGcnH8Jv7EGLnLzJB4cSZ2PNcNok%2FTt47lkMVL1iX63mXB2fTBPGsWlPmCP%2Fz1yxy1lFbvz38vz5Xx74Hxu4Xip301nEX8xvHTBqtkCZYTO7Du5oZJjpcYzGfi%2BSSYOvgI4o%2BGP48W%2Fsl%2Bs%2FC9ztkHi5%2F11fIC6y0zFD%2FoleVOrcBb4Uvis6ImR1%2BJsQYhJTpeZmAQr%2Bsks%2FzJmBFDfZzOvF4Y%2FCFemx3WCarVr5PpTm0zPlnBmrVEBeQWDSoiYFdNEQWZs3Dr4UPWbmxqy9ff%2BkvLNr8Hq7b77jvfWkiuC8eYxeEsYfF6QVXQxfyKaUBmVkyGnPVKByvHNHSUBCnJgiTl10pHooDY5cJsKB3Orlh2vPJFU7YvmjUbtcl%2BgI9m7gwPno8Mf0LWJ1y0zPp57mI2Ck8AfITXzFv9kz14IAeYWuLD7lv2ZHeVPfpheTZ%2BQ8tLBt%2FsIJxL0HUtPo6mg5ocH6%2FnIwerzAE9WyFcfXfhmdZ2JAsMb2wFG67TouusUW6TZLEkSy4ctpyMeZZjBPZrfmvlIUN8hx%2Bujd9svStACgVVTc3PEb14%2FLXsXkjNhGhk1iDKzxQtDTNTiJ3pi%2B%2BPsNp2hMXywpx8nL6NiWglmLZvuoJveZhqfeHJdqzocx555%2BSJLe%2FiFeOEH4%2BliE6QBn%2FR6biO64V3EYGoaLqKx%2F3Ac1%2BszJmn8Cc9k0g%2FGDjnhG%2FYWEa6NoaW88P17cB2Z%2Fjc0A0Cd5q5oO3YY3IicAmPMuIj05qFSHzuLgLHnuGbJrLbRqzeQXxQIc2r2J1QEllEVVAxTh7EoEqIWXgWLNQSxvQR%2FB1KAiVyAZVdM51D3HptMhfYvmhbMdF%2FsQJzEqMWs3KZVeWjbJ4q4o2jHB6z9Bt49puAtZmXaO4qwCaqAhS3w01RBJWzJ6uVCH184JWQYz4U45GsChLS1z8M%2BmuCqLEUgIUeDuPIDFe%2FlHD7UtrTUI%2FNLlo81LWnY3xbxx7i3yZe8IHhBeSjO50vMPr6%2BPO1MccoOYBIe8P%2FhflsXMUCJ5pwuqIaKy02q8SJJXByXzExluxgTqrbXabLKoVr0VOQoJoVP1tAAADtI4EWAnarzBjTwlaZMYb6sciMopoXBVRJo5leWalRYqRGiZI%2Fa5YaE%2Fm3TgQmuCblkDjGtIZUk2Tj%2BGy6iULjhrynbiICeiZaKq0by3jCquIERHlwwyddo5vyv4WbnGj5ofW2jS%2BA%2BvwtxILkPP40Jn%2Fb7wvPwhdcYvUF%2F7lbzUzyBysytkkGOsbcGIan3Cf8a7oglt7wOFZ2MMBno%2BRx8OtFTxRNztAC3qkCSpKgRTda7Jvao5FTJJLkKaaCPRJCxs7JCm%2FpWBZtxbo2ScTbJHeEvlQA%2FRjqKSg7jrsYnRhIRZ0iX0VGAiv46FqTMC1hvc4pSjwrQuq%2FALRJIQMMrr5EmRxkQP7hcYdS2hgI7mhf4KphDHrQepn79IR5j7DwiVnFcx1rMMZIUZGCJtJqBUelkHXOrqTUhQolLE%2BJMlFadw7RJXxS%2BfxM7vJWnRB17N2DqEA7mfqmgfnD5Q%2FXsc2V4L%2BOqwGCrCmUcUOUOPYgnpm%2FLooUebaNirhsdzUziBJB9lVz4dkBWYoQpwX8IcRz8krhPmyMCPNDYGj44V9MZtEl%2FwmvCQLPHmIt8XS4s5a3DIocwyBUOQRZG28Wedp9RZgQERJ5AgJN07OMgEBZMaZkcWdDP%2BJy%2BOXxuxPHOhG5LCtI8CUUi%2F%2B3sD1raoVQPw0kkClHqairLBLIUpNI0IBlgihylGInJcflFbvUJpEaKKK51G3%2BsEK4bXdWlbU8oOMyPUgahWa0Yau03UGnJgKUdFCzQiiWcK9%2BtMzwy4pWc3DxNseSpuVVJz4oQKNkOImV4ThoJNUlw0klDMIVcAuY91DLkQmyITNQgnNHQssKzJMgIxmWpmWVmkihJqqZliV0uLghF4gbCQ0SYQPTZGdMxIkQRtbQmM9PR37QKIagc4TIxI7ZiPwglZAftirVm7g1rTT7hmP5Ty4GtoCBW5ExTMNMJm%2BtV1lOC4EmaAq7tlpt3JY1uod6VagvxZJz%2F659%2FfnwGFJyBeQYH3ke%2F%2FrQuESkYIKJi6nTNgP3AHNRBjB1BaK0FE6MYSnhQUd1rXGZUJS18GA6hu8Tj2QZkSFxd%2B7r%2FEyVC%2BLfFPMKRqSrNOfuTHBxq9aR8N4jkVRk2qMg7SeowIShJniLmvV1SjxD5Y6CilIgqCQTDZOBO8IXECAWD9o4ksosQ%2FrbHyvHeG5gxHyuImaFIGUlTVjFlniN2rYDeTc9ZydWpYv5SA1N1%2FdnV5hboVx8BhBEVWuYX4kl%2BdWRWUmQSJnmwZ4MC9E5IzI1Uc0MS2Y1q3ZsXQ8Nq2uzfGxb%2FWziIqLsWVDjSeeNMogSzqytwuHWGFDWg1jCyQnA%2BcUl4mhOBomAEHwsuRpjazB03Iq0J1HUBT37k3dD82zcXKNVXQGhMk%2FurGg%2FT6JKzslqInAXLe5x7NNVgBZQTiueWpxs1o0QnsLqxH3b9FzffSKQNCeW%2BRJyvidMDwj8cp3QKBTywaVnE4didBBBjJa5PhuAaEO%2FwvEnoSYZo8ruRb8Tp25vNrEICAh4DNO0%2FNDTSyJw8Fa%2BNuBhWco17chhGMHqs25bEKWJZ5sMdorES4ysD0QlYjk%2Fla0Dioz5DsFynpLajB0qz6BU0abze%2BZZY9vHKB6SCKGvk9lxMANh7FaQpZlGAxPVEsLentrgLmartc6XerwPSAgthNV2r3i832%2FV9xJGcyz6nkRtloBCmNL6HmW9Zlxydadwsnssg495fNuS5VTFXpdIgamrmpVEdMjCVqqLaBPJ6JhDB6oON8Rskc6lTLyu2ahutUHeqZWwpH00GGqM4EC6LCTkugEkIhIUDnHUZ744Ba9tVEYDrH%2Fy68zVVZt24SoluJA1sgOSetLx%2FV8LJyw5JPwffzkTStkKmzDA%2FdwwX8bhRsBLri8wOdFADW%2FZTkZBhpRGRmBgSTU6RJeEZtD5G35m1Pnx7QY9rs6l4d%2B3hfkObOPbL2B23ddrcSSOVrLYX8mv5tR87T%2B3l%2F2O%2Fj6amnbv2yQYXsnvt7MHvTedgNG38%2FdbW3sdTf88j64uFsZf7XU4vVwMV73xCDkvo6ux3nu%2BQNfPP1f9Lp6n2xZvnnty%2F%2F0F3Nz1xsbVn%2FkjmoAfd71VvyMtb7ov8u39y6r%2Fbi5vntvwpovvefU4H14tA3P2x3%2B8B%2FbjP4%2FOcKq%2FPHbwPaaOMwLfX60usPud9rLXLbpXu3D%2BH%2FbDs3V1oXbu395H3xz%2F8e4cWP%2BcOz%2FuvoPHfybgGt28m6seXrfv9o30cO9%2Fv57dgP63YGr8ffNv7T7oP4%2Fh4%2FNP9ekunulOfh91L9XHqeMPu%2B7zzfOD%2FHj1gG5FMO2Jk8nt8kW7Fm%2BA9ffNydx9%2BfDPL7d3deM%2F%2FHPzju%2BO57jAb%2F9T770A6fq599brnvfxW76TNxw9%2F17c4JnxMbx%2BbqNet7%2FAbylfP4%2FHtx1p1b9rv%2BH%2F4PrZfLu%2Bv1j073%2FH4wBfP5Z73fGi%2F3wR9O%2Fbi9v7P3%2F7Kwn0Z%2FMgmt%2BUH%2B57eP7%2BuG9LqL8iK9sekznxvZb4PuE9f%2FKvwRDow1735%2BLm%2FnESn1tdPz%2B8h%2Bc7bfweF4vb7kOA7yNaU4Cf8YKM4bkv4MP9GM%2F5kzwruukkcybX9PCz9pNzeE0eQDLn9f1P%2FI74fWxJ7osP5O%2Fq5m9%2FSd795tkkzyjedAB%2Bjt8r8mzxtbA%2F64dz4zWB8fg4Gnft63cphZd5dQmMzvnz8OrynVCLKf5c9uzzFwynm3i9l6NnDIN3h33nO%2FLO7fHNHX6m2QN5z9XDO4bJu0meveD%2BD%2Fj7vRLrgd%2Fy%2Bfz5piOJeDxcwwS2%2BH7S7V07xB28Dsvr5xf4hzxj97vSs7U1RhNsRI%2FvEuE%2BFWn7Oq3t80zMImpS2NytDNAOGiIUAMhHQ0pactxENKR8XDEGVAyjBBVBkTOuhz0zX6Ek0zhFphazVRryM9et4lUQg1AULNmezz33NUq%2BIeUYUhMSsDMGWq%2FQcj6MfB1PHpY0UtvsiZifoAoZRODUsoON2p8SI%2BUxBk7tz1mOzDoEIZ2qt3ekdYvyyjQdaa1XkEhdOoDp3vBfyBei7127Y3t2vKFLlWidFHA5BUKbdbnpJfw5n0CZp42qgA1XbVx91yvw4hSlSEaR28BYBBO8bAQ4Z2mO7KnQCgKMXJWmkOVCCBqlF15NgmjF%2FbkxOwiofzAERlF0JFk7P8xtTqEZTf9poSnS0QY8UDbL%2BorF5GpB%2BWTYzkmBskQCRrNUmcbvbQxLYAqCbtimnhx3aU4MLxBGlmn74YbHXd5KFpQugc0L9OCFKELaC1nhiu6VrVmiHrEAtLQEXBx0vB7YpyrxobXrCiG4vehXsvzbq8sdl77SSt3XqV9pX3UlfaQ0eKZZfQUmnpsKFdyiYIl9sLQQuz5bBERLhAVcameDGc3u1HIog0ForDKXxZ7cHZ44vnHhg8nKpuvxh%2BgRKkbg3cojlkDgQpw7VlRiqjGXZj%2F0TGLD5hIIyhQp%2B0wBkS2RTm3hiHeNhkNCUCKGrumYpZYo5yMNJV4acpNBSxCUyJH96HCZqqOWWqLE5P8pnPYeTYYtwTIl4D8aEDXGLWHpUhGgthUoTQcuwTLV3eloma15VlWE07BxMvxQGnw8CQLSQ6xNlgJdmqOZJNimO3uyMffzBJO41S7D4Bp0ScZJnXR3RjaK1tTwMK7Zs3FrYsxGrZFnLGetV9chbVUuSRrgpYW%2FPrUIUgz8iTuf42sHg6U1HAxMTLUvg0E002AQltmcWcFgMMGwId3EWtVVYG%2BhpJLdhsQUlVOINBmrAXEqcIoUeVS%2F4YfE53%2BcUupXi%2FG1i2xSdqM1OuCORchPQcpGlJIvAVkQqXYP5fV8Zq78RHXL2ZAXJVOzXxJF3%2BuEFSjJuxJ4u362pOQp%2Bijpun28WFi5yaQzWKaP4b42nrMa02G22njk42oHAFU6B0CCmqBl46T3LXPAZBdsm7l2hlJfYhbViwIKQFZ2NktnrJCipOSxFKCG07ZSFXwrRqc%2BvCNB6Rbdfk%2Bm2VR5WxO1Byol7ZbVoWyNxQiK9kAx%2Bt7FyCbzY0T1iQpx9Bthps4QkUWr2RklmA9HkDXW5NPwzohKmBqOP36HtqUpx5B%2BA8t0AG5KZaja4q7SdvK9Le5akrzZFBdEXE0gqsURcx7qqBoO2ZuZzoJ0dS9icPFduUc02mB4h%2BRIUMTCNw%2FbBzF9SXZiiixybUbruPd8fOeztON7CbotjY0HNr4rEYPwb28Ag6FoWvPAFwK8X%2FtV8WOxgMazjUd4MhuqDRXQ4aJPcQHo%2Fy0sIszEdX%2FapOhzmsMQt5IYncUZDFYkCSW2gBMKuKRD9HRO7QyookbrzcCkan0t4R1Eos6XawVpQcSGFKuk1MF2xSqpcXYsihUd%2BaPSkT%2BlRQp9y0R1SxRiBZGgWnHCFLn%2FDO8FkRFx7rlx9aqwVyBB1%2FEsUqkWUSaVF%2FGjNJPqZCJHadFR0iVOjzlufhQTI1QhhylTWvorzf4rzf4rzf4rzf4rzb4Mow%2B71FMmHU5Me6Np9mlGQh27fLaM6GuU%2B2ExmkSsXSyCiethjT%2FKDjmRrZ0uJqoorAVvozRaA7yr1xw4GQfJ5y1196i%2Bc1v9NwdoFOVdNYnucSwaBR0Yvr%2Brhgo%2Fken44to73pcwHXPNPjkD1Z72JIY1bDDnG0tfFAJrOnc9w1sN%2FLj16sD0rBHJLDUc1hCWiqd4ipGNr6LsZhWwk5bCsBOepgC5xghIx6ZUyFMqr9VSuFhHQpRMe4291Xyk7Kfm75r2IQO6CGxyp3rzOKTi1OAKTJSBZ1uvRKaIy630uqdjeKSLq8qcPtcwobRmzI7cflM7CotFwMxAEKR%2Bouh3KjPeuy%2FW6UiHNDtXeY7zZgEsV6ANFAH4Dm8BkUXv2%2F39j7VF7yztvLfeXv2TAbIC6IL1XDe%2Bqgtqox6E6vsxHf2ezRaOVYEuwD0LnNGNx9Uk0agpaZpbcbYiWr2xlmfrVh9x66MToUgZYqBTeMApIPwBJHlqXSRkVaTEZEVmt7hmsyblEjrop8t2AluznbCU7IWfsVg5f0sTnEhDyUv84JjTG15r7iz8ClOWFMSC%2F6NzluTmVNXtNqkji3NXgCZQsZx7B8Rx5tKaTkKXS%2BRHHH0UKC1maLyyQo0HgXIbwNVDRtsNtl9kVC8ZNdm8N46vlz59fH1VIpRIWxo1wGEAzYbXl2rBcFK6I82FdYD2VhyZgMKkVlNTBK3wVP8dCXpzYBfdMzITLZpz%2Fh4DzVZApKJOkShvj1ZB6vxviEoRA%2Ba7RdwjklrhzNLyFqxcj1xV7ypne8SBp7Aq6bej63lwtVcfvwHeMe7JFN2WEn8t87yX4c8ZVWqEkejwYkyNueDHC1dNVAAj0nHq8vKKftYX7adUYEsqYgk%2F0tDOtuO4y6hKvmUaC9%2FKs4YoqhPY5NK5Z%2FnWLDgZoxPtzNGPg0XsYHGauUHRamWWfZjaOG4jsozHR4b3cktoMghjOQQgV%2BRDkZmgBg4x8SQDhGrzh4sVVGXYsME6GI3jIrq5rqVR398odDocwPwQE54Rrld7NLVn6503ytqIrqVHT6xiNo0hSoLkOQzh0B3UVaE2HFH2Ld7gY%2FEwOCHRuiVRCeQqPUf5JExJ3jxT7ZJ1CbPIp7Lgt2Q9b33Qk1f8MAO%2BWrnyma3CvM50iiufrItMNFP7BKrKcZEnceJAbV2QBObwAQIIBLRv%2BSQJiXRJPDJhs0SrVqAOF%2FlRi%2BxbcvS933MSLBjGRMeKWboDkweyvWAR9rCYGuaEyFJHa%2FiqhNVIdLsgHrOBGgfX65OQVVaJLuToRyohawAJQGHariXKJ6%2BqvsxxJtSYg6AeXkgQiQUUeD8hpOQbYTlB0r%2FgLJtsGAceBUlVF17omUT01QV5ipH99GSFoMAzmu7cSoXuRH5e4tNnWaX2VIhzMxLpXJFaZ5Eo1ThrQKJ965LsKlAXFsLfr0xapi2ldJbr2aDtXh6rENTbndEJEW6XUBKufCwSikKlXEOwd4aEQhWH1LWmhZES8QlH77NuYdWZznTTOZE%2Fzfut1epLJqbl7XTp0J4rReUX1abr2iVYWIIXoOPiBXT5BVadKN2PQ%2F5oVlBjw9oivUSJvvfDXYbB%2BLc3%2BNeffioTzYb%2BPK9znKIeIooUCvGasjWshlQeb9NkvZfPl3NZXRUXiYoEAlTUQO1VXCpozbjZ2d8eEQ3IDv4TmS%2FCDJ3Y72%2BcZFZ3C1H%2BfiVJqs6mdfPqtdAJt9UxCK25dI7t4kOSZXEs1Cwrm02Y6AATJl3%2BFqZyQ1MUrvGsJ%2FWAfjsj%2FzeBno7jgEzvt9pBjwqZe20iopq2Jce%2FQyd0aLK%2Bt2YzI5T7%2Fk2iIpMHjlXaDxcWtRJRHUlqC2MqmGeEOnwze%2B5bGTlvIzCKa4rmorHEM34PJsMkhD4Y2Z5F%2FKJ4IS6X9gzP6A98y3utshcTkkSBaqcDJU5crYoEnZOeoum1ga6EfeKje2T911oN%2FhgLJ%2FCrA4ik0qxUZKGhKYLUqExVphfCVwm8rxJ4XyXwvkrgfZXAKyUxiUgUpIwbMWkBnvJ9TpGTZgviadWb2rgt2dXN%2FoHCxS6hfh9XPhxTyAamLdh2VrkgMxVqWOVKxI06qi5k6yUS0xmphWJGNRPjIsgjKzDsE6qOwgR%2FrnXoj9Of9BoLa2RBHGZJra2kweosF%2F7FRqJ4lkFMrb5lelgdOx0sgKosyHk7OUScjQABveEECf1kVGnSknZAetJW2NEYc2NBo9RoyCtiJUmCxCtJWCPgeNFAO1rG9CIaJmuQJeR7KzZ9nYhZCzPhtPRNAleR1%2FaiYb5cIjbmc0XXQyTo2WaPgGKCvM2w0Wj7VFI7ZC8soiPMMeM0prvQvnc6%2BxnlH4RSwiU%2FjHgQqNxBmIkgQPlAyLPNwQOFK0wpLKX8TfEGvV0rirjHRylBUNQZEUeCoqDt6XxidCqJ1qmqU4TGprZ8%2Fa2%2FtGzze7Bqu%2B%2B%2B861Vk7%2BZQYEtGjD32UpHskbm9o%2FCCVr1YYwaZZGBMZ7X54fkrjc6fI8oUeL3T5oO08nWCY1UJodyR24MWvvw3YXZSjh4Xri7iKoA1IzMAGkTGk8C1yUBcpwnVew3XJSovMtAefaQJfti9vDpiZ51mWnUw9RM9WXCTr68Y1%2FesS%2Fv2Jd37F%2FjHTtoZ0eKLmStAUnc%2BSZzQF3OMS7LLzaqHSzo%2FddahUElJyOmkdx2RO31ySxNmAG4ACwuTHMwALnxgkQ%2B1%2FgBg0RCB6826RicGoI2xgp%2BbnRQAaP%2Fiw27OLgYUX1CXFF6bCmr0K76%2F%2BYwurL2o49SBkRIxSMjSFW%2BLq0NaIwNgLIJ16wNlImV2xeP1AYQiftSelk0%2Blg7kiYJSMvE1FBigwypeNXSRkaNMi0o9UVb8I2MNRWarcSMoJ8qzDdOrEh6oyhQJhrry8rwZWX4sjJ8WRm%2BrAxVWBlkTqWORq0MkOdbrCH%2B7s%2B6JfWRdp47zE%2BUNCRLAcupOdy4vpl03vrQgmoHraus0XXqoMrryaBzaEak6whUt677ZgHvXP6KG82OykSzV6Pcf6iuRRcThvq%2BlSHS7tvJTJpElT2qW7ni%2BWh3ZLPqphDJ0MIXVnP3LfLii3n0cvgX%2Fv9kh9Xe%2FTj0C1hhIb24bsT7wgtPrmbxJbZpnQxjVgBjGVYh2xiNW7VcpMN8qmMgOzTGayq68qBlbokyVchHRewq1xVOyV%2FjCgrDF0VTRv2TjycEuWLYaZyEYF6JlfoElxpLxyWbZ8WF45ozlCbMY6ulFH3k5r0OZ045Al3UrXzdF3r3bjr%2Bsrg63MGB2dtceR3PitSmzD4eNpcIwmK7T64zCrf0uee%2B2mHr4NjvF54eWf4L2QTw4FM6GMoKUS3dYBUX1g3zoQinimeP7xRd5RthUKC9rRvc5xYVWkgRBYVS0NWkUXBWj1PX1%2BW2MrWYSA5jhzzDbN34pyeu5DAPLsIcUrUUv19YiuzJI71vMyhFh4DGyDPEPDrMsYsRFiMWFm1CkTM3xcQyIkyOxNIVZg4x6o3W%2BGjit8q3KjpFPNThxrxtPdE%2FPxInEc9dVDdOYv0v%2FOa9l%2BZvpugV8TAXI5MXYSrpJ8bD0%2Fgr3okjkZrHGgRUTRDZfk3NI84haZ7VV9oJ1V%2FySjMrWLreS9j69DKOfx%2FcRIP56jsHAQbSFU951Jw0LGqkCkOZvmQbyx%2BFkLC8i1crAkjsBCxIqs16Cnm9DnfuabhF%2B2Wxgm6mCDWte8ZW6w4xg3R4ny%2FIF4vk9fKpalQhfwREkUeRPKFcqqs3VglFKwf8PNWdEwUKdUD4H9Mg6uAxSI7i8WQsOob5Me51UApHkr%2BZM5osbzgVnkku4cynrc%2BEzGIrNmXwtKT3mcG0AsLIYZlp%2B6YLdcEL5zqfez0zfA68I3DR9bJN%2FjHEEyKyDFQx5VKHZVUqSECU4V0vmSBL1%2BSsDFdZo9ndYjizgs0YyzV5kVZAtrVuUhrzni29Wen9JDyObwt4HGTpSwJxl8zDW8aQZc8O%2FOg9OEDVVJ1kU%2BbRIH7azfzOsZ5iYYzUMLgOj7oiOGO6s6a3yLHpCpBIk4TEA5XiUFJFM2t75Tk8KylXwJc%2Faoyey1mEtrYoOfv32YQYj87e1YmY5C6tvlrA%2FJSsEvFy5sJ7DdEkdOBVglTb%2B1Oklk4p6WkTfZP0Pt%2Bvx82%2FCUVFimUhCBHdmXSHqsXUZEBhJitAU4wqxipzWSx4baAt%2Bl7rBy82rNIvu36%2BNbVET1KSdvCh5xJlfn052ez67sgiV%2Fw%2F%3C%2Fdiagram%3E%3C%2Fmxfile%3E"; // Replace with the actual URL of your Draw.io iframe
+
+    return (
+        <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
+            <h1>Cloud Technology Project</h1>
+            <p>This project demonstrated knowledge of:</p>
+            <ul>
+                <li>Cloud computing</li>
+                <li>Cloud Networking</li>
+                <li>Cloud Security</li>
+                <li>Cloud Storage</li>
+                <li>Identity and Access Management</li>
+                <li>Automation</li>
+            </ul>
+            <p>
+                I am happy to further demonstrate my knowledge and passion for cloud technology upon request.
+            </p>
+            <h2>Description</h2>
+            <div style={{ border: '1px solid #ccc', margin: '20px 0' }}>
+                <iframe
+                    frameBorder="0"
+                    style={{ width: '100%', height: '2479px' }}
+                    src={iframeSrc}
+                    title="Cloud Technology Project"
+                ></iframe>
+            </div>
+        </div>
+    );
+};
+
+export default CloudTechnologyProject;*/
+
+import React from 'react';
+import '../Styling/CloudTechnologyProject.css'; // Import the CSS file
+
+const CloudTechnologyProject = () => {
+    return (
+        <div className="project-container">
+            <h1 className="project-title">Cloud Technology Project</h1>
+            <p className="project-description">This project demonstrated knowledge of:</p>
+            <ul className="knowledge-list">
+                <li>Cloud computing</li>
+                <li>Cloud Networking</li>
+                <li>Cloud Security</li>
+                <li>Cloud storage</li>
+                <li>Identity and Access Management</li>
+                <li>Automation</li>
+            </ul>
+            <p className="project-summary">I am happy to further demonstrate my knowledge and passion for cloud technology requests.</p>
+            <h2 className="description-title">Description</h2>
+            <img
+                src={`${process.env.PUBLIC_URL}/design2.jpg`}
+                alt="Cloud Technology Project Diagram"
+                className="project-image"
+            />
+        </div>
+    );
+};
+
+export default CloudTechnologyProject;
+
+
+

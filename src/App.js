@@ -15,7 +15,9 @@ import { TaskProvider } from "./jsFiles/TaskContext";
 import ProtectedRoute, { PublicRoute } from './configFiles/ProtectedRoute'; // Import the ProtectedRoute
 import AssignAzureRoleButton from './components/assignAzureRole';
 import AccesRequestPage from './components/accessRequestPage';
-import FileShareViewer from './components/FileShareViewer';
+import FileShareViewer from './components/FileShareViewer'
+import CloudTechnologyProject from './components/ProjectDiscription';
+import BastionConnectInfo from './components/BastionConnectInfo';
 
 
 
@@ -24,6 +26,7 @@ const Pages = () => {
     return (
         <Routes>
             <Route path="/" element={<PublicRoute> <LoginPage /></PublicRoute>} />
+            <Route path="/description" element={ <CloudTechnologyProject />} />
             <Route
                 path="/upload"
                 element={
@@ -37,6 +40,14 @@ const Pages = () => {
                 element={
                     <ProtectedRoute>
                         <FileShareViewer />
+                    </ProtectedRoute>
+                }
+            />
+            <Route
+                path="/bastionConnect"
+                element={
+                    <ProtectedRoute>
+                        <BastionConnectInfo />
                     </ProtectedRoute>
                 }
             />
@@ -96,6 +107,7 @@ function App() {
         <TaskProvider>
             <NavBar />
             <Pages />
+         
         </TaskProvider>
     );
 }

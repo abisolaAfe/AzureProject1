@@ -1,8 +1,9 @@
 import PowerOnVM from "../jsFiles/powerOnVm";
-import BastionConnectButton from './connectWithBastion';
 import AssignAzureRoleButton from './assignAzureRole';
 import RoleAssignmentButton from './RoleAssignmentButton';
 import '../Styling/AccesRequestPage.css';
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -23,8 +24,10 @@ export default function AccesRequestPage() {
                 <PowerOnVM />
             </div>
             <div className="request-item">
-                <p>Click on button to connect to VM via Bastion</p>
-                <BastionConnectButton />
+                <p>Click on the button to connect to VM via Bastion</p>
+                <Link to="/bastionConnect">
+                    <button>Connect via Bastion</button>
+                </Link>
             </div>
         </div>
     );
