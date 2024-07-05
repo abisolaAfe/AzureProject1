@@ -6,7 +6,7 @@ export const msalConfig = {
     auth: {
         clientId: process.env.REACT_APP_CLIENT_ID,
         authority: 'https://login.microsoftonline.com/b4de7a6d-aa27-49d5-8fdf-cc7a310ef1a7',
-        redirectUri: 'process.env.REACT_APP_AZURE_AD_REDIRECT_URI',
+        redirectUri: 'https://proud-rock-018d89e03.5.azurestaticapps.net',
     },
     cache: {
         cacheLocation: 'localStorage',
