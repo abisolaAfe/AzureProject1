@@ -3,6 +3,7 @@ import AssignAzureRoleButton from './assignAzureRole';
 import RoleAssignmentButton from './RoleAssignmentButton';
 import '../Styling/AccesRequestPage.css';
 import { Link } from 'react-router-dom';
+import BastionConnect from "./connectWithBastion";
 
 
 
