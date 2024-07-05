@@ -17,20 +17,6 @@ const listUserAppRoleAssignments = async (userId, accessToken) => {
     }
 };
 
-/*const getAppToken = async () => {
-    const response = await fetch('http://localhost:7071/api/GetGraphToken', {
-        method: 'GET'
-    });
-
-    if (response.ok) {
-        const data = await response.json();
-        return data.accessToken;
-    } else {
-        const error = await response.json();
-        throw new Error(error.error.message);
-    }
-};*/
-
 const removeUserRole = async (userId, roleId) => {
     try {
         const accessToken = await getAppToken();
