@@ -4,7 +4,7 @@ import { PublicClientApplication } from '@azure/msal-browser';
 export const msalConfig = {
 
     auth: {
-        clientId: process.env.REACT_APP_CLIENT_ID,
+        clientId: 'f6a35253-e1f9-4eb2-9563-76b857deddfb',
         authority: 'https://login.microsoftonline.com/b4de7a6d-aa27-49d5-8fdf-cc7a310ef1a7',
         redirectUri: 'https://proud-rock-018d89e03.5.azurestaticapps.net',
     },
