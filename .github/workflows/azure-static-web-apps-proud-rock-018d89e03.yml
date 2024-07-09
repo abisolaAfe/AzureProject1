@@ -23,6 +23,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20.12.2'
+      - name: Build Application
+        run: npm install && npm run build
+        env:
+          REACT_APP_API_URL: ${{ secrets.REACT_APP_API_URL }}
+          ANOTHER_ENV_VARIABLE: ${{ secrets.ANOTHER_ENV_VARIABLE }}
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -48,3 +53,4 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PROUD_ROCK_018D89E03 }}
           action: "close"
+
