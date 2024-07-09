@@ -29,3 +29,32 @@ function Home() {
 
 export default Home;
 
+/*
+function Home() {
+    const { accounts, inProgress } = useMsal();
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if (accounts.length === 0 && !inProgress) {
+            navigate('/');
+        }
+    }, [accounts, inProgress, navigate]);
+
+    return (
+        <div className="home-container">
+            <h2>Welcome {accounts[0] && accounts[0].name ? accounts[0].name : 'User'}</h2>
+            <div className="home-content">
+                <TaskPage />
+            </div>
+            <div className="home-link">
+                <Link to="/requestAccess" className="critical-tasks-link">
+                    Click here to request for Accesses to perform Tasks
+                </Link>
+            </div>
+        </div>
+    );
+}
+
+export default Home;*/
+
+
