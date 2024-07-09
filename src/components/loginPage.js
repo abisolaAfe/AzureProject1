@@ -23,6 +23,8 @@ function LoginPage() {
             scope: ["user.read"]
         });
         completeTask(1);
+        console.log('Client ID:', process.env.REACT_APP_CLIENT_ID);
+
         navigate('/home');
     };
 
