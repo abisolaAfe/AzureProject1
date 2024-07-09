@@ -40,6 +40,17 @@ jobs:
           output_location: "build" # Built app content directory - optional
         env:
           REACT_APP_CLIENT_ID: ${{ secrets.REACT_APP_CLIENT_ID }}
+          REACT_APP_STORAGE_ACCOUNT_NAME: ${{ secrets.REACT_APP_STORAGE_ACCOUNT_NAME }}
+          REACT_APP_STORAGE_ACCOUNT_KEY: ${{ secrets.REACT_APP_STORAGE_ACCOUNT_KEY }}
+          REACT_APP_SHARE_NAME: ${{ secrets.REACT_APP_SHARE_NAME }}
+          REACT_APP_SUBSCRIPTION_ID: ${{ secrets.REACT_APP_SUBSCRIPTION_ID }}
+          REACT_APP_AUTHORITY: ${{ secrets.REACT_APP_AUTHORITY }}
+          REACT_APP_OBJ_ID: ${{ secrets.REACT_APP_OBJ_ID }}
+          REACT_APP_SAS_TOKEN: ${{ secrets.REACT_APP_SAS_TOKEN }}
+          REACT_APP_BASTION_URL: ${{ secrets.REACT_APP_BASTION_URL }}
+          REACT_APP_TENANT_ID: ${{ secrets.REACT_APP_TENANT_ID }}
+          REACT_APP_JWT_SECRET: ${{ secrets.REACT_APP_JWT_SECRET }}
+
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
