@@ -5,7 +5,7 @@ export const msalConfig = {
 
     auth: {
         clientId: process.env.REACT_APP_CLIENT_ID,
-        authority: process.env.REACT_APP_AUTHORITY,
+        authority: 'https://login.microsoftonline.com/b4de7a6d-aa27-49d5-8fdf-cc7a310ef1a7',
         redirectUri: '/',
     },
     cache: {
