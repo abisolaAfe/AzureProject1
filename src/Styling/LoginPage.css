@@ -1,6 +1,61 @@
 
 
 
+/*body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #f4f4f4;
+}
+
+.login-button {
+    padding: 12px 24px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.embed-container {
+    width: 75%;
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+    border-radius: 8px;
+    will-change: transform;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0;*/ /* Complementary background color */
+/*}
+
+    .embed-container iframe {
+        border: none;
+        overflow: hidden;
+        will-change: transform;
+        object-fit: cover;
+    }
+
+a {
+    color: #0078d4;
+    text-decoration: none;
+    margin-top: 0.5em;
+}*/
 body, html {
     margin: 0;
     padding: 0;
@@ -56,6 +111,62 @@ a {
     text-decoration: none;
     margin-top: 0.5em;
 }
+
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #ffffff !important; /* Ensure solid white background */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Dark shadow for contrast */
+    z-index: 1001;
+    color: #000000; /* Black text for readability */
+}
+
+    .modal-content h2 {
+        margin-top: 0;
+        font-size: 1.5em;
+    }
+
+    .modal-content p {
+        margin: 10px 0;
+    }
+
+    .modal-content button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .modal-content button:hover {
+            background-color: #0056b3;
+        }
+
+
+
+
+
+
+
+
+
 
 
 

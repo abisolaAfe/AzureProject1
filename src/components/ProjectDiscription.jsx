@@ -17,9 +17,9 @@ const CloudTechnologyProject = () => {
                 <li>Automation</li>
             </ul>
             <p className="project-summary">I am happy to further demonstrate my knowledge and passion for cloud technology requests.</p>
-            <h2 className="description-title">Description</h2>
+            
             <img
-                src={`${process.env.PUBLIC_URL}/design2.jpg`}
+                src={`${process.env.PUBLIC_URL}/App design2.svg`}
                 alt="Cloud Technology Project Diagram"
                 className="project-image"
             />
