@@ -15,8 +15,8 @@ const PowerOnVM = () => {
             const appToken = await getAppToken2(); // Get the app token from the backend
 
             const subscriptionId = process.env.REACT_APP_SUBSCRIPTION_ID;
-            const resourceGroupName = 'CloudProject';
-            const vmName = 'infinite';
+            const resourceGroupName = 'AppDeployment';
+            const vmName = 'Limitless';
 
             const url = `https://management.azure.com/subscriptions/${subscriptionId}/resourceGroups/${resourceGroupName}/providers/Microsoft.Compute/virtualMachines/${vmName}/start?api-version=2024-03-01`;
 

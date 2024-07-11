@@ -9,7 +9,7 @@ export const listFilesInDirectoryWithSAS = async (sasToken, directoryPath = '') 
     // Construct the URI
     const uri = `https://${accountName}.file.core.windows.net/${shareName}/${sanitizedDirectoryPath}?restype=directory&comp=list&${sasToken}`;
 
-    console.log('Request URI:', uri);
+   
 
     const response = await fetch(uri, {
         method: 'GET',

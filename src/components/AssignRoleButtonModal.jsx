@@ -1,6 +1,6 @@
 
 // Modal.js
-import React from 'react';
+/*import React from 'react';
 import '../Styling/AssignRoleButtonModal.css';
 
 const Modal = ({ show, handleClose, children }) => {
@@ -20,5 +20,5 @@ const Modal = ({ show, handleClose, children }) => {
     );
 };
 
-export default Modal;
+export default Modal;*/
 

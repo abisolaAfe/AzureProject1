@@ -20,7 +20,7 @@ const listUserAppRoleAssignments = async (userId, accessToken) => {
 const removeUserRole = async (userId, roleId) => {
     try {
         const accessToken = await getAppToken();
-        console.log(accessToken);
+        
         const assignments = await listUserAppRoleAssignments(userId, accessToken);
 
         const assignmentToRemove = assignments.value.find(assignment => assignment.appRoleId === roleId);
@@ -29,7 +29,7 @@ const removeUserRole = async (userId, roleId) => {
         }
 
         const url = `https://graph.microsoft.com/v1.0/users/${userId}/appRoleAssignments/${assignmentToRemove.id}`;
-        console.log(`Removing role with URL: ${url}`);
+        
 
         const result = await fetch(url, {
             method: 'DELETE',

@@ -15,6 +15,7 @@ const BastionConnectInfo = () => {
             <div className="instructions">
                 <h2>Instructions to connect to Bastion</h2>
                 <p>Follow the instructions in the diagrams below:</p>
+                
                 <div className="instruction-images">
                     <div>
                         <h3>Step 1</h3>
@@ -23,6 +24,7 @@ const BastionConnectInfo = () => {
                     <div>
                         <h3>Step 2</h3>
                         <img src={`${process.env.PUBLIC_URL}/bastion2.png`} alt="Instruction 2" />
+                        <p><strong>VM Username:</strong> seeker</p>
                     </div>
                 </div>
                 <p>Click the button to check VM status & Connect with VM</p>

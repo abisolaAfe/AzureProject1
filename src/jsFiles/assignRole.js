@@ -6,7 +6,7 @@ const assignUserRole = async (userId, roleDefinitionId) => {
     try {
         // Get the application access token from the backend
         const accessToken = await getAppToken();
-        console.log(accessToken);
+        
 
         // Object ID of the application (service principal)
         const resourceId = process.env.REACT_APP_OBJ_ID; // Replace with your application object ID
