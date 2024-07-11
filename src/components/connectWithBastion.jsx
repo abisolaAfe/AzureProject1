@@ -7,8 +7,8 @@ import { useTasks } from '../jsFiles/TaskContext';
 import getAppToken2 from '../jsFiles/getAppToken2'; // Adjust the path as needed
 
 const subscriptionId = process.env.REACT_APP_SUBSCRIPTION_ID;
-const resourceGroupName = 'CloudProject';
-const vmName = 'infinite';
+const resourceGroupName = 'Appdeployment';
+const vmName = 'Limitless';
 const bastionUrl = process.env.REACT_APP_BASTION_URL;
 
 const BastionConnect = () => {
