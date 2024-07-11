@@ -23,7 +23,7 @@ const BastionConnectInfo = () => {
                     </div>
                     <div>
                         <h3>Step 2</h3>
-                        <img src={`${process.env.PUBLIC_URL}/bastion2.png`} alt="Instruction 2" />
+                        <img src={`${process.env.PUBLIC_URL}/today.png`} alt="Instruction 2" />
                         <p><strong>VM Username:</strong> Seeker001</p>
                     </div>
                 </div>
