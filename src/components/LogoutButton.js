@@ -25,7 +25,7 @@ const LogoutModal = ({ show, handleClose }) => {
                 const resourceReader = 'acdd72a7-3385-48ef-bd42-f606fba81ae7';
                 const vaultSecretsUser = '4633458b-17de-408a-b874-0445c86b69e6'; // Virtual Machine Contributor role ID
 
-                console.log(`Attempting to remove roles for user ${userId}`);
+                //console.log(`Attempting to remove roles for user ${userId}`);
 
                 // Remove App Role
                 const appRoleResult = await removeUserRole(userId, appRoleId);
@@ -52,7 +52,7 @@ const LogoutModal = ({ show, handleClose }) => {
         } finally {
             try {
                 await instance.logoutRedirect();
-                navigate('/');
+                navigate('/logout');
             } catch (logoutError) {
                 console.error('Logout failed', logoutError);
             }

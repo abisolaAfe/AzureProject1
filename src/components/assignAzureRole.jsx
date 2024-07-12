@@ -74,7 +74,7 @@ const AssignAzureRoleButton = () => {
                     'Content-Type': 'application/json',
                 },
             });
-            console.log('Role assigned successfully:', response.data);
+            //console.log('Role assigned successfully:', response.data);
         } catch (error) {
             console.error('Error assigning role:', error.response ? error.response.data : error.message);
             throw error;

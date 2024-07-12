@@ -19,7 +19,7 @@ export const removeAzureRole = async (instance, assignmentId) => {
                 'Content-Type': 'application/json',
             },
         });
-        console.log('Role removed successfully:', response.data);
+        //console.log('Role removed successfully:', response.data);
         return { success: true, message: 'Role removed successfully' };
     } catch (error) {
         console.error('Error removing role:', error.response ? error.response.data : error.message);
