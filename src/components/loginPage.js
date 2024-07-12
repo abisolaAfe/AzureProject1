@@ -51,6 +51,7 @@ function LoginPage() {
                 </p>
                 <p><strong>Username:</strong> seeker@never2much.uk</p>
                 <p><strong>Password:</strong> BeyondLimit001</p>
+                <p>*Please scroll down at the Home page to request access to carry out tasks as required*</p>
                 <button onClick={closeModal}>Close</button>
             </Modal>
             <div className="embed-container">
