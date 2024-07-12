@@ -27,7 +27,6 @@ const Pages = () => {
         <Routes>
             <Route path="/" element={<PublicRoute> <LoginPage /></PublicRoute>} />
             <Route path="/description" element={ <CloudTechnologyProject />} />
-            <Route path="/home" element={ <Home />} />
             <Route
                 path="/upload"
                 element={
@@ -68,7 +67,14 @@ const Pages = () => {
                     </ProtectedRoute>
                 }
             />
-            
+            <Route
+                path="/home"
+                element={
+                    <ProtectedRoute>
+                        <Home />
+                    </ProtectedRoute>
+                }
+            /> 
             <Route
                 path="/blobs"
                 element={
