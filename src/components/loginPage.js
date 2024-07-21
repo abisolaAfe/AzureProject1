@@ -151,7 +151,8 @@ function LoginPage() {
                 <button onClick={closeModal}>Close</button>
             </Modal>
             <div className="news-flash">
-                <p>The virtual machine service is unavailable but other features are live, please check back later or contact and it will be reprovisioned for a demo. Thanks.</p>
+                <p>The virtual machine service is currently unavailable. Other services
+                    are live. Please check back later or contact for a demo. Thanks.</p>
             </div>
             <div className="embed-container">
                 <div style={{
