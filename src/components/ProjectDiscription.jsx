@@ -20,9 +20,9 @@ const CloudTechnologyProject = () => {
                 <li>Backup</li>
                 <li>Automation</li>
             </ul>
-            <h2 className="tools-title">Tools</h2>
+            <h2 className="tools-title">Tools  & Technologies </h2>
             <p className="tools-list">
-                Azure Static Web App, Azure Function, Automation Account, GitHub, Blob Storage, File Share, Network Security Group (NSG), Bastion, Key Vault, Virtual Machine, Virtual Network and Subnets, Router/Route Table, Storage Sync Service, Windows Task Scheduler
+                Azure Static Web App, Azure Function, Automation Account, GitHub, Blob Storage, File Share, Network Security Group (NSG), Bastion, Key Vault, Virtual Machine, Virtual Network and Subnets, Router/Route Table, Storage Sync Service, Windows Task Scheduler, Canva, GitActions, CI/CD
             </p>
             <h2 className="languages-title">Languages</h2>
             <p className="languages-list">
@@ -32,7 +32,7 @@ const CloudTechnologyProject = () => {
                 I am happy to further demonstrate my knowledge and passion for cloud technology requests.
             </p>
             <img
-                src={`${process.env.PUBLIC_URL}/App design2.svg`}
+                src={`${process.env.PUBLIC_URL}/App design2.2.svg`}
                 alt="Cloud Technology Project Diagram"
                 className="project-image"
             />
