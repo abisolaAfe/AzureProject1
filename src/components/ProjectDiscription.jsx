@@ -22,7 +22,9 @@ const CloudTechnologyProject = () => {
             </ul>
             <h2 className="tools-title">Tools  & Technologies </h2>
             <p className="tools-list">
-                Azure Static Web App, Azure Function, Automation Account, GitHub, Blob Storage, File Share, Network Security Group (NSG), Bastion, Key Vault, Virtual Machine, Virtual Network and Subnets, Router/Route Table, Storage Sync Service, Windows Task Scheduler, Canva, GitActions, CI/CD
+                Azure Static Web App, Azure Function, Automation Account, GitHub, Blob Storage, File Share,
+                Network Security Group (NSG), Bastion, Key Vault, Virtual Machine, Virtual Network and Subnets,
+                Router/Route Table, Storage Sync Service, Windows Task Scheduler, Canva, GitActions, CI/CD,UML
             </p>
             <h2 className="languages-title">Languages</h2>
             <p className="languages-list">
