@@ -34,7 +34,7 @@ const CloudTechnologyProject = () => {
                 I am happy to further demonstrate my knowledge and passion for cloud technology requests.
             </p>
             <img
-                src={`${process.env.PUBLIC_URL}/App design2.2.svg`}
+                src={`${process.env.PUBLIC_URL}/App design2.3.svg`}
                 alt="Cloud Technology Project Diagram"
                 className="project-image"
             />
