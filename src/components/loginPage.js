@@ -150,10 +150,10 @@ function LoginPage() {
                 <p>*Please scroll down at the Home page to request access to carry out tasks as required*</p>
                 <button onClick={closeModal}>Close</button>
             </Modal>
-            <div className="news-flash">
+            {/*<div className="news-flash">
                 <p>The virtual machine service is currently unavailable. Other services
                     are live. Please check back later or contact for a demo. Thanks.</p>
-            </div>
+            </div>*/}
             <div className="embed-container">
                 <div style={{
                     position: 'relative',
