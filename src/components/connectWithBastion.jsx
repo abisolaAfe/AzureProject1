@@ -8,7 +8,7 @@ import getAppToken2 from '../jsFiles/getAppToken2'; // Adjust the path as needed
 
 const subscriptionId = process.env.REACT_APP_SUBSCRIPTION_ID;
 const resourceGroupName = 'Appdeployment';
-const vmName = 'Limitless';
+const vmName = 'Limitless01';
 const bastionUrl = process.env.REACT_APP_BASTION_URL;
 
 const BastionConnect = () => {

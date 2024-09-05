@@ -16,7 +16,7 @@ const PowerOnVM = () => {
 
             const subscriptionId = process.env.REACT_APP_SUBSCRIPTION_ID;
             const resourceGroupName = 'AppDeployment';
-            const vmName = 'Limitless';
+            const vmName = 'Limitless01';
 
             const url = `https://management.azure.com/subscriptions/${subscriptionId}/resourceGroups/${resourceGroupName}/providers/Microsoft.Compute/virtualMachines/${vmName}/start?api-version=2024-03-01`;
 
